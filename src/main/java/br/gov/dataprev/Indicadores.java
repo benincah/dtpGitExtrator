@@ -21,42 +21,35 @@ import org.apache.poi.ss.usermodel.Row;
  * @author rodrigo.beninca
  *
  */
-public class Indicadores {
+public class Indicadores {	
 	
-	
-	private static FileWriter csvInvalidos;
-	
-	
+	private static FileWriter csvInvalidos; //para exportação do csv com nroDtp inválidos
+	private static String pathCsvInvalidos  = "C:\\dev\\gate_dvts\\indicadores_projetos_alm_producao\\Qualificação de Dados - Relatórios\\invalidos.csv";
+	private static String pathArquivoPainel = "C:\\dev\\gate_dvts\\indicadores_projetos_alm_producao\\Qualificação de Dados - Relatórios\\NumerosDTP_do_Painel_NEW.xls";
+	private static String pathArquivoALM    = "C:\\dev\\gate_dvts\\indicadores_projetos_alm_producao\\Qualificação de Dados - Relatórios\\q_Relação_de__Nro_DTP__e__Liberado_em__por_Project_Area.xls";	
+
 	
 	public static void main(String[] args) throws Exception {		
-		csvInvalidos = new FileWriter("C:\\dev\\gate_dvts\\indicadores_projetos_alm_producao\\Qualificação de Dados - Relatórios\\invalidos.csv");
-		csvInvalidos.append("Project Area");
-        csvInvalidos.append(';');
-        csvInvalidos.append("Número DTP");
-        csvInvalidos.append(';');
-        csvInvalidos.append("Id Item Backlog");
-        csvInvalidos.append(';');
-        csvInvalidos.append("Nome Item Backlog");
-        csvInvalidos.append('\n');  
-		
-        
+		populaCabecalhoCsvInvalidos();  		        
         processaItensBacklog();		
 	}
 	
-	
 	/**
+	 * Identificar os Item de Backlog e Project Area que mencionam o NroDtp mas
+	 * esses números não existem no Clarity.
+	 * 
+	 * 
 	 * Abrir o arquivo excel
 	 * localizar a coluna do nome_projeto, itemBacklog e a coluna do NroDtp
 	 * correr as linhas do excel e para cada NroDtp localizado (não estar em branco):
 	 * 		add prefixo 'DTP.' se necessário
 	 * 		colocar em upcase 
-	 * 		ver se o nroDtp é válido isNroDtpValido()
-	 * 		imprimir o nome da PA e o Nro Dtp inválidos
-	 * @throws IOException 
+	 * 		ver se o nroDtp é válido
+	 * 		exportar  nome da PA, Item Backlog e o Nro Dtp inválidos 
 	 */
 	private static void processaItensBacklog () throws IOException {
 		//abre o arquivo e pega a sheet dos dados excel
-		InputStream arquivoExcel = new FileInputStream(new File("C:\\dev\\gate_dvts\\indicadores_projetos_alm_producao\\Qualificação de Dados - Relatórios\\q_Relação_de__Nro_DTP__e__Liberado_em__por_Project_Area.xls"));
+		InputStream arquivoExcel = new FileInputStream(new File(pathArquivoALM));
 		HSSFWorkbook wb = new HSSFWorkbook(arquivoExcel);
         HSSFSheet sheet = wb.getSheetAt(1);        
         
@@ -101,27 +94,12 @@ public class Indicadores {
         arquivoExcel.close();		
 	}
 
-	/**
-	 * adiciona os nrosDtp não localizados em um cvs
-	 */
-	private static void populaCsvInvalidos(String nroDtp, String pa, String ib, String nomeIB) throws IOException {
-		System.out.println("NroDtp Inválido!: " + nroDtp + " PA: " + pa + " IB: " + ib + " Nome IB: " + nomeIB);
-		
-		if (csvInvalidos == null) 
-			csvInvalidos = new FileWriter("C:\\dev\\gate_dvts\\indicadores_projetos_alm_producao\\Qualificação de Dados - Relatórios\\invalidos.csv");
-
-        csvInvalidos.append(pa);
-        csvInvalidos.append(';');
-        csvInvalidos.append(nroDtp);
-        csvInvalidos.append(';');
-        csvInvalidos.append(ib);
-        csvInvalidos.append(';');
-        csvInvalidos.append(nomeIB);
-        csvInvalidos.append('\n');        		
-	}
+	
 
 	
 	/**
+	 * Extrai os NroDtp do Clarity a partir do arquivo obtido via Painel de Indicadores.
+	 * 
 	 * abrir o arquivo excel
 	 * identificar a coluna no NroDto
 	 * Correr as linhas adicionando na Lista o NroDtp 
@@ -132,7 +110,7 @@ public class Indicadores {
 		ArrayList<String> numerosDtpClarity = new ArrayList<String>();
 		
 		//Abre a planilha e aba do arquivo excel que contém os NroDtp
-		InputStream arquivoExcel = new FileInputStream(new File("C:\\dev\\gate_dvts\\indicadores_projetos_alm_producao\\Qualificação de Dados - Relatórios\\NumerosDTP_do_Painel.xls"));
+		InputStream arquivoExcel = new FileInputStream(new File(pathArquivoPainel));
 		HSSFWorkbook wb = new HSSFWorkbook(arquivoExcel);
         HSSFSheet sheet = wb.getSheetAt(0);
 
@@ -155,6 +133,40 @@ public class Indicadores {
 		
         return numerosDtpClarity;
 	}
+
+	
+	/*
+	 * criação do cabeçalho do arquivo csv a ser exportado 
+	 */	
+	private static void populaCabecalhoCsvInvalidos() throws IOException {		
+		csvInvalidos = new FileWriter(pathCsvInvalidos);
+		
+		csvInvalidos.append("Project Area");
+        csvInvalidos.append(';');
+        csvInvalidos.append("Número DTP");
+        csvInvalidos.append(';');
+        csvInvalidos.append("Id Item Backlog");
+        csvInvalidos.append(';');
+        csvInvalidos.append("Nome Item Backlog");
+        csvInvalidos.append('\n');
+	}
+	
+	
+	/**
+	 * adiciona os nrosDtp não localizados em um cvs
+	 */
+	private static void populaCsvInvalidos(String nroDtp, String pa, String ib, String nomeIB) throws IOException {
+		System.out.println("NroDtp Inválido!: " + nroDtp + " PA: " + pa + " IB: " + ib + " Nome IB: " + nomeIB);
+
+        csvInvalidos.append(pa);
+        csvInvalidos.append(';');
+        csvInvalidos.append(nroDtp);
+        csvInvalidos.append(';');
+        csvInvalidos.append(ib);
+        csvInvalidos.append(';');
+        csvInvalidos.append(nomeIB);
+        csvInvalidos.append('\n');        		
+	}
 	
 	
 	/*
@@ -173,10 +185,10 @@ public class Indicadores {
 		return nroDtp;
 	}
 	
-	/**
+	/*
 	 * verifica se o NroDtp existe na relação de NrosDtpCadastrados
 	 */
-	public static boolean isNumeroDtpValido(String nroDtp, ArrayList<String> numerosDtpCadstradosClarity) {
+	private static boolean isNumeroDtpValido(String nroDtp, ArrayList<String> numerosDtpCadstradosClarity) {
 		boolean existe = false;
 				
 		Iterator<String> i = numerosDtpCadstradosClarity.iterator();		
