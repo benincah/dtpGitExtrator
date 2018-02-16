@@ -61,11 +61,14 @@ public class ContadorGit {
 	    
 	    System.out.println("Diferença Alterações Entre Tags: " + diferencaAlteracoesEntreTags);	    
 	    System.out.println("*******FIM - linhas alteradas entre commits*******");
+	    
+	    String linha = commitB + ";" + repo + ";" +somaLinesAlteradas + ";" + diferencaAlteracoesEntreTags;
+	    System.out.println(linha);
 	}
 	
 
 	public void salvarEmArquivo(String linha) throws FileNotFoundException {
-		FileOutputStream arquivo = new FileOutputStream("arquivo.txt");
+		FileOutputStream arquivo = new FileOutputStream("arquivo.csv");
 		
 	}
 	

@@ -1,0 +1,195 @@
+GERID-UNIFICADO,DTP.1793611194DM.064887 / DTP.17936 - GERID - Corrigir 12 defeitos encontrados no Gerid Unificado
+PAINEL INSS,DTP.2020419914DM.069814 / DTP.20204 - [Painel CASA] Revisar a carga de Tempo Real para ser incremental e usar a carga parcial
+Manutenção RJ,DTP.1973523866DTP.19735 DM.069606 - Consultoria para integração do Qlikview com o SDM
+PAINEL SURL,DTP.1924823863DTP.19248 DM.068782 - Painel SURL - Alteração do módulo de Contratos (EXE)
+Gestão de SW,DTP.000024411[GERAL] Curso Segurança
+SIAC,DTP.1252524349Parecer de Disponibilidade - SIAC - DTP.12525
+Gestão de SW,DTP.000023966[SIBE PU PR V2] Revisão do Termo de Aceite da Entrega
+Gestão de SW,DTP.000022397[BG Agendamento] Avaliação Processo (Sprint 4)
+Gestão de SW,DTP.000023965[SIBE PU PR V2] Revisão do Termo de Aceite da Manutenção
+GET,DTP.2074626710[CANCELADA] DM.070437 / DTP.20746 - GET - Autenticação GETRESTAPI
+SDC,DTP.2015827177DM.048235.C - RFB CODAC 0500/2015
+PAINEL INSS,DTP.2080827757DM.070487 / DTP.20808 - [Painel CASA] Videowall- Prototipação, aplicação das sugestões de melhoria da área de padrões (COPD)
+PAINEL INSS,DTP.2097527762[CANCELADA] DM.070487 / DTP.20975 - [PAINEL-CASA] Apoio a definição do padrão visual para o videowall
+SAG,DTP.1861614569[DEVOLVIDA] DM.069196 / DTP.18616 - Erro na aplicação de mudança de parametro de serviço do SAG
+SAG,DTP.1883927276[DEVOLVIDO] DM.065390 / DTP.18839 - Erro no acesso de entidade conveniada com mais de um CNPJ
+SAG,DTP.1888227274[DEVOLVIDA] DM.063682 / DTP.18882 - Problema na criação de vaga automática para o serviço perícia médica
+Gestão de SW,DTP.000027328Treinamento da CIPA
+SAG,DTP.1888726506[DEVOLVIDA] DM.062024 / DTP.18887 - inconsistência do relatório da Inicial
+Manutenção RJ,DTP.2067928465DTP.20679 DM.070405 - SPA - Regime Geral de Pesca - Qualificação de Dados
+SD,DTP.2000831800DM.069947 - Sistema não repassou parcelas como saldo
+PAINEL SURL,DTP.2132630521DTP.21326 DM.070811 Painel SURL Inclusão do campo "Sistema Principal" na aba de "Demandas"
+SERIS,DTP.2144130512[DTP.21441] DM.070119 - PGFN SERIS - PDD Consulta 2 do Seris (Indicador de ajuizamento)
+PAINEL SURL,DTP.2171733124DTP.21717 DM.070811 - Inclusão do campo "Sistema Principal" na aba de "Demandas"
+Manutenção RJ,DTP.2284438336DTP.22844 DM.063235 - Migração SUIBE - Emitidos - Conferir regras do ADO com o ALM
+SAG,DTP.1938642620DM.069294 / DTP.19386 - Erro ao alterar exercício em mais de uma unidade no SAG Gestão
+Manutenção RJ,DTP.2284440474DTP.22844 DM.063235 - Migração SUIBE - Rubricas - Comparar regras do DARDO ADO com as descritas no ALM
+PAINEL INSS,DTP.163947335DM.067999 / DTP.16394 - Painel de Monitoramento INSS - Estudo comportamento variáveis sub abas
+SAG,DTP.1816111745DM.068980 / DTP.18161 - [SAG] Corrigir a gravação do IP no agendamento pela Internet
+SDC,DTP.1192512827Job de Atualização Taxa Selic
+Gestão de SW,DTP.0000022836[BG Agendamento] Validação SNAP
+Gestão de SW,DTP.000023308[GET V4] Validação de PF (1486)
+Gestão de SW,DTP.000024448[META] Criar Proposta de acompanhamento da DMP
+Manutenção RJ,DTP.2009725094DTP.20097 DM.069986 - SOUWEB-V1 - Migração e Relatórios - Disponibilização de SQL
+Gestão de SW,DTP.000023872[ParcWeb V5/V6] Revisão do Termo de Aceite da Entrega
+SD,DTP.1674925291DM.068192 - Sistema emitiu parcelas em duplicidade, ocorreu o reagendamento de parcelas e as mesmas não foram emitidas.
+Gestão de SW,DTP.000025559[CV3 Atualização] Revisar Termo de Aceite
+SAG,DTP.2115428701DM.070720 / DTP.21154 - [SAG Gestão] Erro ao inativar servidor
+Gestão de SW,DTP.000028683[Meta] Enviar evidência da revisão de PDD no segundo semestre
+SAG,DTP.2135630162DM.070851 / DTP.21356 - SAG - Correção no retorno do serviço do servidor
+PAINEL INSS,DTP.1838630174DM.069111 / DTP.18386 - [Painel CASA INSS] Retirada do refresh/suspensão refresh com redirecionamento de página
+SD,DTP.2169131383[DM.070783] [F2.1] - Reagendar Parcelas da Modalidade Formal, Bolsa, Doméstico e Resgatado
+SD,DTP.2136631803DM.070858 - Valor de Parcela apresentado errado
+SD,DTP.2273932368[DM.071606] Serviço de Consulta de Informações da API
+CNIS PJ,DTP.2230035290DM.070764 - Criar serviços no CNISPJ para tratar vinculos do e-social
+WSPARC,DTP.2275837187[DTP.22758] DM.071613 - Incidente 803929/2018 - Falha na notificação de encerramento WSPARC
+SAG,DTP.2266136729DM.071548 / DTP.22661 - Limitar o campo de descrição do anexo
+Manutenção RJ,DTP.2284438329DTP.22844 DM.063235 - Migração SUIBE - Mantidos - Atualizar e executar o grupo em desenvolvimento
+Manutenção RJ,DTP.2284440471DTP.22844 DM.063235 - Migração SUIBE - Emitidos - Juntar documentação do ELA com o RFA
+Manutenção RJ,DTP.2284440472DTP.22844 DM.063235 - Migração SUIBE - Mantidos - Juntar documentação do ELA com o RFA
+PAINEL SURL,DTP.1763918729DTP.17639 DM.068533 - Painel SURL - Criação módulo Ocorrências no Portal do Cliente
+PAINEL INSS,DTP.1933918232DM.069573 / DTP.19339 - [Painel CASA INSS] Aba abrangência - APS com Prevcidade
+SDC,DTP.2272420776DM.048235.C - RFB CODAC 0500/2015
+SAG,DTP.1996321710[DEVOLVIDA] DM.069933 / DTP.19963 - SAG - Erro no agendamento para Entidades conveniadas
+SAG,DTP.2030923781DM.070172 / DTP.20309 - SAG - Erro ao incluir entidade externa com nome longo
+PAINEL INSS,DTP.2023424126DM.070105 / DTP.20234 - [Painel CASA] Levantamento de propostas de solução para refresh no horário de 12 as 13
+SAG,DTP.2030123771DM.070167 / DTP.20301 - SAG - Erro calculo de indisponibilidade para extração SIGMA
+PAINEL SURL,DTP.1924823865DTP.19248 DM.068782 - Ajuste do histórico de commits para Merge Request
+Gestão de SW,DTP.000024405[CV3 Atualização V2] Avaliação Sprint 1
+SAG,DTP.2037624458DM.070234 / DTP.20376 - SAG Gestão - Ativar servidores
+SD,DTP.1273124585DM.063538 - Inclusão da Notificacão de Reemprego com CPF
+Gestão de SW,DTP.000023933[BG Agendamento] Revisão do Termo de Aceite de Manutenção
+GET,DTP.2018423005[DEVOLVIDO] DM.070058 / DTP.20184 - Erros no GET
+Gestão de SW,DTP.000023930[BG Agendamento] Revisão do Termo de Aceite de Entrega
+Gestão de SW,DTP.000023876[CV3 Atualização] Validação PF (1583)
+Gestão de SW,DTP.000023968[SIBE PU PP V2] Revisão do Termo de Aceite da Entrega
+Gestão de SW,DTP.000023874[ParcWeb V5/V6] Revisão do Termo de Aceite da Manutenção
+SD,DTP.1978627241DM.069810 - Problema no campo observação da funcionalidade Liberar Sentença Judicial
+SD,DTP.2057927422DM.070355 - RAZÃO SOCIAL APRESENTADA NÃO ENCONTRADA
+SAG,DTP.2135430157DM.070850 / DTP.21354 - SAG - Não exibe o agendamento
+PAINEL INSS,DTP.2125229301DM.070790 / DTP.21252 - [CASA] Problemas nas informações PM painel Histórico
+SD,DTP.2169131379[DM.070783] - Demanda Pai Reagendamento de Parcelas Mudança Salário Mínimo
+SD,DTP.2160030547DM.070565 - Implementar job avulso para remoção das notificações
+SIPA-INSS,DTP.2136330563DM.070856 / DTP.21363 - Aplicar a nova tábua completa de mortalidade 2016, para benefícios com DER a partir de 01/12/2017, devendo atualizar a tabela existente na aplicação SIPA-CONRMI
+Gestão de SW,DTP.000030925[SIBE PMAN] Avaliação de Processo (Sprint 3)
+SD,DTP.2147631309DM.070913 - Job do FGTS deixou de enviar e-mail
+GET,DTP.2201332615[DEVOLVIDA] DM.071151 / DTP.22013 - GET - Impossibilidade de baixar anexos maiores que 5Mb
+GET,DTP.2116534393[PDD] DM.070726 / DTP.21165 - [Painel GET] Atualização para adaptação INSS
+SIRC,DTP.2206633957DM.071196 / DTP.22066 - Correção para ajuste de performance das rotinas de apuração d
+Manutenção RJ,DTP.2284438330DTP.22844 DM.063235 - Migração SUIBE - Emitidos - Atualizar e executar o grupo em desenvolvimento
+ESOCIAL DOMINIOS,DTP.2221441166DM.071280 - Atualização do puppet do eSocial Domínios para atualização do cabeça
+Manutenção RJ,DTP.2284442581DTP.22844 DM.063235 - Migração SUIBE - Emitidos - Conferir campos do ALM com DARDO
+PAINEL SURL,DTP.2284940478DTP.22849 DM.068533 - Painel SURL - Inserção de GRID nas telas de ocorrências
+Manutenção RJ,DTP.2284440475DTP.22844 DM.063235 - Migração SUIBE - Emitidos - Comparar regras do DARDO ADO com as descritas no ALM
+GET,DTP.1753310285DM.068622 / DTP.17533 - GET - Erro ao criar uma nova tarefa
+SAG,DTP.1938218664DM.061945 / DTP.19382 - Erros em eventualidade do tipo mutirão
+PAINEL INSS,DTP.2020424131[CANCELADA] DM.069814 / DTP.20204 - [Painel CASA] Revisar a carga de Tempo Real para ser incremental e usar a carga parcial
+Manutenção RJ,DTP.1639223867DTP.16392 DM.067490 eSocial: Painel de Gestão do Sistema Transacional
+Gestão de SW,DTP.000024410[GET V4] Revisão do Termo de Aceite da Entrega 01
+PAINEL INSS,DTP.2027523482DM.070149 / DTP.20275 - [Painel CASA] Alteração de protocolo do webservice SDM
+Gestão de SW,DTP.000024001[SIBE PU PMAN] Avaliação de Processo - Sprints 3
+Gestão de SW,DTP.000025606[GERAL] Orientação a projetos
+Gestão de SW,DTP.000027178[Geral] Rollout UDCE SIBE PU
+GET,DTP.2074626470DM.070437 / DTP.20746 - GET - Autenticação GETRESTAPI
+PAINEL INSS,DTP.2125429696DM.070791 / DTP.21254 - [CASA] Painel Tempo Real - Aba Estatísticas - Gráfico Estatísticas de Acesso - Evolução
+SAG,DTP.2154330822DM.070941 / DTP.21543 - SAG - Remover eventualidade SDC
+SAG,DTP.2180831811DM.071055 / DTP.21808 - SAG - Correção na vaga automática
+Gestão de SW,DTP.000032268[Homologar Ferramentas] ALM - Relatórios RDNG - homologação
+SAEP (PROGER),DTP.2131233047DM.070823 - [PROGERv3]:Erro de Time-Out no módulo supervisão
+Manutenção RJ,DTP.2225134797DTP.22251 DM.071297 - Consultoria para o Novo processo de carga da Base de Ouro
+CNIS PJ,DTP.2228035292CNIS PJ - Migração de Testes de Desempenho para o IBM RPT
+GET,DTP.2220034168DM.071276 / DTP.22200 - GET - correção da DER para PRISMA
+SDC,DTP.2148632966DM.048235.C - RFB CODAC 0500/2015 - Alteração Códigos de Pagamento - UDRJ
+GET,DTP.2274438298DM.071610 / DTP.22744 - GET - Erro na atribuição de responsável
+SD,DTP.2274036905[DM.071607] Atualizar Ambiente de Sustentação
+GET,DTP.1785111074DM.068805 / DTP.17851 - GET - Erro no upload de anexos a uma tarefa
+PAINEL SURL,DTP.1784010658DTP.17840 DM.068782 - Correção do Previsto para Itens de Contrato
+GET,DTP.1753710273DM.068629 / DTP.17537 - GET - Link internet com mensagem "sem acesso"
+SOUWEB,DTP.1733513588DM.051082.C/DTP.17335 - [SOUWEB V2] Consulta de manifestações do SOU-Web v1 - legado.
+PAINEL INSS,DTP.1914419382DM.069496 / DTP.19144 - [Painel CASA INSS] Migração para versão 12 do Qlikview
+SAG,DTP.1938518669DM.069283 / DTP.19385 - inconsistencia na data apresentada para o agendamento do BILD
+PAINEL INSS,DTP.1955419141DM.069716 / DTP.19554 - [DMP2-Interna] Contar PF de demandas de débito técnico do PAINEL-CASA
+PAINEL INSS,DTP.1981720498DM.069821 / DTP.19817 - [Painel CASA] Separar QVWs do painel histórico sumarizados e detalha
+PAINEL INSS,DTP.2020524128[DEVOLVIDA] DM.069819 / DTP.20205 - [Painel CASA] Revisar a alimentação do PIWIKI na entrada dos paineis pois não estão contabilizando
+Gestão de SW,DTP.000023892[GET V4] Avaliação de Processo (Sprint 3 - Release 2)
+SAG,DTP.2019523021DM.069089 / DTP.20195 - NUP - Adequações técnicas no SAG
+Gestão de SW,DTP.000023945[SAG Meu INSS] Avaliação de Processo (Sprint 3 - Release 2)
+PAINEL SURL,DTP.2041725572DTP.20417 DM.069412 - Painel SURL - Ajustar padrão COII atualização QlikView 12
+WSPARC,DTP.2105628121DTP.21056] DM.070660 - Correção na exclusão de créditos, erro 57,  WSPARC
+SAG,DTP.1500828237[CANCELADO] DM.064891 / DTP.15008 - EXTRATOR Adição Tipo de Profissional nos Módulos do SIGMA/ SISAGE
+SD,DTP.2150130542DM.070783 - Reagendamento de Parcelas devido a mudança no salário mínimo
+CBO,DTP.2237134903DM.071370 - [MTb][CBO][Corretiva] Lista de facilitadores em Branco
+SD,DTP.1830534155DM.069049 - PARCELA EMITIDA (A EMITIR)
+SD,DTP.2015634157DM.070055 - Parcela duplicada, erro no arquivo de retorno
+SDC,DTP.2135232963DM.070837 - Corrigir problema relatado no incidente 652948/2017
+CBO,DTP.2274637325DM.071611 - [MTb][CBO][MANUT] problema do campo da data de agendamento desabilitado
+Manutenção RJ,DTP.2284438331DTP.22844 DM.063235 - Migração SUIBE - Rubricas Base Emitidos - Atualizar e executar o grupo em desenvolvimento
+WSPARC,DTP.2065416292[DTP.20654] DM.070402 Correções da Demanda CODAC 540 - Lei 12996
+SAG,DTP.1867714782[DEVOLVIDO] DM.069343 / DTP.18677 - SAG-BATCH - alterar o envio de emails no job
+SIRC,DTP.1937218864DM.069596 / DTP.19372 - INCIDENTE 672806/2017 - SANAR INCONSISTÊNCIA NAS TABELAS DE CERTIDÕES VERSOES
+PAINEL INSS,DTP.2020324134DM.069808 / DTP.20203 - [Painel CASA INSS] Separar Indicadores de Histórico
+Gestão de SW,DTP.000023891[GET V4] Avaliação de Processo (Sprint 2 - Release 2)
+SD,DTP.2031224981DM.070179 - Gerar Job de Registro de GRU no formato EBCDIC
+SD,DTP.1729724867DM.068072 - Compensação finalizada não sensibiliza status das parcelas
+Gestão de SW,DTP.000023938[SAG Meu INSS] Avaliação de Processo (Sprint 2 - Release 2)
+Gestão de SW,DTP.000024005[Cobrança Administrativa] Passar Baseline no Cronograma
+SAG,DTP.2074426712DM.070450 / DTP.20744 - SAG GESTÃO - Exibir detalhes da eventualidade excluída
+Gestão de SW,DTP.000027176[GERAL] Orientação a projetos
+SAG,DTP.2087427581[DEVOLVIDA] DM.057565 / DTP.20874 - Erro ao configurar exercício intercalado
+SAG,DTP.623826504[DEVOLVIDA] DM.060753 / DTP.6238 - INCONSISTÊNCIA DE PERMISSÃO DE ACESSO
+SIAC,DTP.1252525121DTP - 12525 - [PDD] DM.064887 - CIdadão.BR - Serviço de Identidade e Autenticação do Cidadão
+GERID-UNIFICADO,DTP.1806925267DM.064887 / DTP.21861 - Gerid 5+ - Manutenção Evolutiva
+SD,DTP.1728625608DM.068301 - VÍNCULO JÁ UTILIZADO EM HABILITAÇÃO ANTERIOR SOMADO NOVAMENTE AO TEMPO DE SERVIÇO
+SAEP (PROGER),DTP.2141329899DM.070878 - [MANUT PROGER] Validador com Cert. Vencido
+SD,DTP.2169131378[DM.070783] [F1.1] - Reagendar Parcelas da Modalidade Pescador Artesanal
+SAG,DTP.2189132034DM.071097 / DTP.21891 - Inativar servidor
+SD,DTP.2137731804DM.070862 - Parcela não emitida
+SD,DTP.2196332357DM.067600 - Serviço REST para consulta de Ações do Posto de Atendimento
+WSPARC,DTP.2204230606[DM.070746] Job para reativação de parcelamentos
+SD,DTP.2177334947DM.070942 - [EXADATA] Ajuste de rotinas para servidor Jobs MTE (SD/PPE/FGTS)
+SDC,DTP.2109135044DM.070653 - Migração de Testes de Desempenho para o IBM RPT
+SIPA-RFB,DTP.2249635411DM.071461 / DTP.22496 - Automatizar deploy via solução Urbancode
+SDC,DTP.1964332964DM.069008 - SDC - Atualização de tabelas corporativas no ambiente de homologação
+PAINEL INSS,DTP.2236234969DM.071265 / DTP.22362 - [CASA] - Inconsistência no tempo de espera
+PAINEL SURL,DTP.2257837180DTP.22578 DM.071469 Painel SURL - Implementação da tela Evolução do Recebimento
+SDC,DTP.2180940481DM.070885 - Migração dos Serviços EJB para REST
+PAINEL INSS,DTP.1875915921DM.069365 / DTP.18759 - [Painel CASA] Análise impacto alteração protocolo Webservices SDM
+Manutenção RJ,DTP.1973520725DTP.19735 DM.069606 - Consultoria para integração do Qlikview com SDM
+SAG,DTP.1999521707[DEVOLVIDA] DM.069856 / DTP.19995 - SAG - informação de ausência de vaga errada ao tentar agendar
+SAG,DTP.2034424123DM.070202 / DTP.20344 - SAG - PK violada
+SD,DTP.1575324881DM.066121 - PARCELA EMITIDA NO SD E NÃO DISPONÍVEL NA CAIXA
+Gestão de SW,DTP.000024844[Demanda] Validar PF (1851)
+Gestão de SW,DTP.000024029[SIBE PU PMAN] Passar Baseline no Cronograma
+GET,DTP.2047525070[DEVOLVIDO] DM.070294 / DTP.20475 - GET - Erros na criação de tarefa e upload
+SAG,DTP.2065026502[DEVOLVIDA] DM.059410 / DTP.20650 - erro na informação sobre o cumprimento do agendamento
+PAINEL INSS,DTP.2049827480[DEVOLVIDO] DM.070317 / DTP.20498 - [Painel CASA] Mensagem na aba Chamados SDM
+SD,DTP.2151730393DM.070923 - Valor de GRU que foi Registrada no BB
+SD,DTP.2131930364DM.070565 - Ajuste nos Requerimentos Notificados SINEFacil
+ASPP,DTP.N/A32082Meta de Desempenho - Ajustes nos logs gerados referentes a todas as rotinas/fases que fazem parte do processo de identificação dos abonos (JOB do ASPP)
+Manutenção RJ,DTP.205231078[DMP4_BI] Implantação de demandas Out a Dez 2017
+SAG,DTP.2202432945DM.071048 / DTP.22024 - [SAG] Corrigir falta da trava 30/60 para Central 135 e registro incorreto de data-hora de cancelamento
+SAG,DTP.2202632943DM.070780 / DTP.22026 - Erro ao inativar profissional no SAG Gestão
+PAINEL INSS,DTP.2233335046DM.071345 / DTP.22333 - [CASA] - Inconsistência entre dados da GEX e da APS
+Manutenção RJ,DTP.2247434529DTP.22474 DM.071353 - Scripts para o GovData
+SD,DTP.2193634171DM.071034 - SOMA DOS MESES INCORRETA
+SD,DTP.2221136702DM.071273 - Falha na conversão de moedas por meio de JOB específico
+GET,DTP.2254936689DM.071498 / DTP.22549 - GET - Erro geral na geração de PDF consolidado
+SAG,DTP.150083807DM.064891 / DTP.15008 - EXTRATOR Adição Tipo de Profissional nos Módulos do SIGMA/ SISAGE
+Gestão de SW,DTP.000023967[SIBE PU PP V2] Revisão do Termo de Aceite da Manutenção
+SD,DTP.1543624888DM.067557 - ERRO NA ORDEM DE HABILITAÇÃO
+Gestão de SW,DTP.000023920[ParcWeb V7] Validação PF (ID 1841 - 190 PF) - Release 1
+Gestão de SW,DTP.000023914[ParcWeb V7] Avaliação R2-S1
+Gestão de SW,DTP.000024443[GERAL] Relatório Semanal UDCE
+SAG,DTP.2129229691DM.070819 / DTP.21292 - SAG - Correção no serviço para o PRISMA
+SAG,DTP.2135130154DM.070849 / DTP.21351 - SAG - Remover eventualidade do SDC
+PAINEL INSS,DTP.1690430168[DEVOLVIDO]  DM.068294 / DTP.16904 - [CASA] Mantis 127812 Alteração nos IPs enviados ao PWIKI
+PAINEL INSS,DTP.2134229886DM.070846 / DTP.21342 - [Painel CASA] Informação de atendimento com atraso no CASA
+SD,DTP.2160030545DM.070565 - Consultar Requerimentos Afetados
+SDC,DTP.2006833842DM.069979 - SDC - Correção de problema na aplicação SDC Gestão Corporativa
+SD,DTP.2229634753DM.071294 - Erro apropriação de salarios do CNIS
+ASPP,DTP.2205836486DM.071173 - [MTE][ASPP] - Erro importação RAIS Complementar em Produção
+WSPARC,DTP.2204237111DM.070746 - Reativação Parcelamentos L11941/2009 (Contagem Final PF)
+SD,DTP.2137435971DM.070860 - Informação de parcela duplicada e não emissão
+SERIS,DTP.2265336771[DTP.22653] DM.070119 - SERIS - Consulta 2 Ajuizamento
+Manutenção RJ,DTP.205235845[DMP4_BI] Implantação de demandas Janeiro 2018
+Manutenção RJ,DTP.2284441110DTP.22844 DM.063235 - Migração SUIBE - Requeridos - Copiar os TUCs de 2017 do DARDO de produção para máquina DARDO no AAS
